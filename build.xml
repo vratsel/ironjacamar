@@ -36,6 +36,7 @@
   <property name="minor" value="2"/>
   <property name="patch" value="1"/>
   <property name="type" value="Final"/>
+  <property name="eclipse.home" value="c:/eclipse"/>
 
   <condition property="version" value="${major}.${minor}.${patch}-SNAPSHOT">
     <isset property="snapshot"/>
